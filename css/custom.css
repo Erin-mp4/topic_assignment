@@ -14,12 +14,31 @@ body {
 nav, footer {
     background-color: #610303;
     color: #F7F7F7;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav ul {
     list-style: none;
     padding: 1em;
-    justify-content: space-between;
+    display: flex;
+    justify-content: right;
     margin: auto;
+}
+nav li {
+    padding-left: 2em;
+}
+header {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    color: #F7F7F7;
 }
 div {
     width: 1000px;
@@ -29,4 +48,10 @@ div {
     margin-top: 2em;
     margin-bottom: 2em;
     background-color:#F7F7F7;
+}
+div h2 {
+    font-size: 2em;
+}
+div img {
+    float: right;
 }
